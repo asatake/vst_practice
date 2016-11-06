@@ -1,0 +1,18 @@
+﻿2016/11/06 11:05:19 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\hprc\proc\vst\vstTest\vstTest\vstTest.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VSTTEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\Documents\software\Sound\VST_SDK\VST3 SDK\public.sdk\source\vst2.x\audioeffect.cpp" "..\..\..\..\Documents\software\Sound\VST_SDK\VST3 SDK\public.sdk\source\vst2.x\audioeffectx.cpp" "..\..\..\..\Documents\software\Sound\VST_SDK\VST3 SDK\public.sdk\source\vst2.x\vstplugmain.cpp" MyTremolo.cpp
+         MyTremolo.cpp
+     1>c:\users\hprc\proc\vst\vsttest\vsttest\mytremolo.cpp(7): fatal error C1083: include ファイルを開けません。'audioeffectx.h':No such file or directory
+         vstplugmain.cpp
+     1>c:\users\hprc\documents\software\sound\vst_sdk\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(37): fatal error C1083: include ファイルを開けません。'pluginterfaces/vst2.x/aeffect.h':No such file or directory
+         audioeffectx.cpp
+     1>c:\users\hprc\documents\software\sound\vst_sdk\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(37): fatal error C1083: include ファイルを開けません。'pluginterfaces/vst2.x/aeffect.h':No such file or directory
+         audioeffect.cpp
+     1>c:\users\hprc\documents\software\sound\vst_sdk\vst3 sdk\public.sdk\source\vst2.x\audioeffect.h(37): fatal error C1083: include ファイルを開けません。'pluginterfaces/vst2.x/aeffect.h':No such file or directory
+         コードを生成中...
+     1>プロジェクト "C:\Users\hprc\proc\vst\vstTest\vstTest\vstTest.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:01.37

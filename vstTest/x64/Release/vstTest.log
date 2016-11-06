@@ -1,0 +1,25 @@
+﻿2016/11/06 13:44:45 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\hprc\proc\vst\vstTest\vstTest\vstTest.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _WINDOWS /D _USRDLL /D VSTTEST_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /wd4996 /errorReport:prompt "..\..\..\..\Documents\software\Sound\VST_SDK\VST3 SDK\public.sdk\source\vst2.x\audioeffect.cpp" "..\..\..\..\Documents\software\Sound\VST_SDK\VST3 SDK\public.sdk\source\vst2.x\audioeffectx.cpp" "..\..\..\..\Documents\software\Sound\VST_SDK\VST3 SDK\public.sdk\source\vst2.x\vstplugmain.cpp" MyTremolo.cpp
+         audioeffect.cpp
+         audioeffectx.cpp
+         vstplugmain.cpp
+         MyTremolo.cpp
+     1>MyTremolo.cpp(191): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyTremolo.cpp(192): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hprc\proc\vst\vstTest\x64\Release\vstTest.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"../vstplug.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\hprc\proc\vst\vstTest\x64\Release\vstTest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hprc\proc\vst\vstTest\x64\Release\vstTest.lib" /MACHINE:X64 /DLL x64\Release\audioeffect.obj
+         x64\Release\audioeffectx.obj
+         x64\Release\vstplugmain.obj
+         x64\Release\MyTremolo.obj
+            ライブラリ C:\Users\hprc\proc\vst\vstTest\x64\Release\vstTest.lib とオブジェクト C:\Users\hprc\proc\vst\vstTest\x64\Release\vstTest.exp を作成中
+         コード生成しています。
+         All 188 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         コード生成が終了しました。
+         vstTest.vcxproj -> C:\Users\hprc\proc\vst\vstTest\x64\Release\vstTest.dll
+     1>プロジェクト "C:\Users\hprc\proc\vst\vstTest\vstTest\vstTest.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.42
